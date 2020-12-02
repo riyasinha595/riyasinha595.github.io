@@ -1,0 +1,127 @@
+body{
+    background-color:#E8CEBF;
+}
+.name a {
+    font-family: Playfair Display;
+    font-size: 72px;
+    color: #266150;
+    position: relative;
+    text-decoration: none; 
+}
+.name a:hover{
+    cursor: pointer;
+    color: #FDF8F5;
+}
+#carousel,
+.carousel-image {
+  width: 500px;
+  height: 500px;
+}
+#carousel{
+    position: relative;
+    border: 5px solid #266150;
+    left: 500px;
+    top:-100px;
+    overflow: hidden;
+
+}
+#carousel-image-row{
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    left: 0px;
+    transition: 0.5s left;
+}
+.carousel-image img {
+    height: 100%;
+    width: auto;
+  }
+  .hidden {
+    visibility: hidden;
+
+    }
+.all-text {
+    position: relative;
+}
+#heading{
+    position: absolute;
+    bottom: 200px;
+    left: 20px;
+    font-family: Playfair Display;
+    color: #FDF8F5;
+    font-size: 36px;
+    margin: 10px;
+    padding: 20px;
+}
+#heading:hover{
+    color: #266150;
+}
+#body{
+    position: absolute;
+    bottom: 50px;
+    font-family: Montserrat;
+    color:  #FDF8F5;
+    font-size: 18px;
+    padding: 20px;
+    margin: 10px;
+    left: 20px;
+    font-weight: 700;
+    
+}
+#body:hover{
+    color:#266150;
+}
+
+#heading-2{
+    position: absolute;
+    font-family: Playfair Display;
+    color:  #FDF8F5;
+    font-size: 36px;
+    top: -600px;
+    right: -20px;
+    padding: 20px;
+    margin: 10px;
+    
+}
+#heading-2:hover{
+    color:#266150; ;
+}
+#body-2{
+    position: absolute;
+    font-family: Montserrat;
+    color:  #FDF8F5;
+    font-size: 20px;
+    right: -75px;
+    top: -520px;
+    margin: 10px;
+    padding: 20px;
+}
+#body-2:hover{
+    color: #266150;
+}
+.resume{
+    position: relative;
+}
+#rectangle-resume{
+    position: absolute;
+    border-radius: 25px;
+    left: 650px;
+    top: -50px;
+}
+.button-text{
+    position: relative;
+}
+#text-resume{
+    position: absolute;
+    color: #FDF8F5;
+    top:-65px;
+    left:695px;
+}
+a{
+    color: #FDF8F5;
+    font-family: Montserrat;
+}
+a:hover{
+    color:#266150; 
+    cursor: pointer;
+}
